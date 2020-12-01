@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c53cf65b414f43f086faec47eda2297c" Name="Diagram1">
+        <EntityTypeShape EntityType="oopModel.classes" Width="1.5" PointX="1.5" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="oopModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="oopModel.userClasses_variables" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="oopModel.userClasss" Width="1.5" PointX="0.75" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="oopModel.users" Width="1.5" PointX="1.5" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="oopModel.userVariable" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="oopModel.valuesShape" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="oopModel.variable" Width="1.5" PointX="0.75" PointY="4.25" IsExpanded="true" />
+        <AssociationConnector Association="oopModel.FK_userClasss_classes" ManuallyRouted="false" />
+        <AssociationConnector Association="oopModel.FK_valuesShape_classes" ManuallyRouted="false" />
+        <AssociationConnector Association="oopModel.FK_userClasses_variables_userClasses_variables" ManuallyRouted="false" />
+        <AssociationConnector Association="oopModel.FK_userClasses_variables_userClasss" ManuallyRouted="false" />
+        <AssociationConnector Association="oopModel.FK_userClasses_variables_variable" ManuallyRouted="false" />
+        <AssociationConnector Association="oopModel.FK_userClasss_users" ManuallyRouted="false" />
+        <AssociationConnector Association="oopModel.FK_userVariable_userClasss" ManuallyRouted="false" />
+        <AssociationConnector Association="oopModel.FK_userVariable_userVariable" ManuallyRouted="false" />
+        <AssociationConnector Association="oopModel.FK_userVariable_variable" ManuallyRouted="false" />
+        <AssociationConnector Association="oopModel.FK_valuesShape_variable" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
