@@ -20,6 +20,7 @@ namespace WebApi.Controllers
         // GET: api/classes_/5
         public List<Classs1> GetClassById(int id)
         {
+            Console.WriteLine("fdsfsfdsfd");
             return valuesShapeManager.GetClassById(id);
         }
        
